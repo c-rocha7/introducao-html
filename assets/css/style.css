@@ -354,6 +354,7 @@ footer {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
+
   .home_content .botao img {
     width: 80%;
   }
@@ -389,8 +390,139 @@ footer {
   }
 
   .sobre_github p {
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: none;
+  }
+
+  .sobre_github .botao {
+    width: 80%;
+  }
+
+  /* Ajustes da Seção Contato */
+  .contato_container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+
+  .contato_content {
+    width: 100%;
+  }
+
+  .contato_container h4 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .contato_container p {
+    margin: 1rem;
+  }
+
+  /* Ajustes da Seção Redes Socias */
+  .social_container {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social_icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* Ajustes da Seção Form */
+  form {
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+  }
+}
+
+/* Table - Telas até 980px */
+@media screen and (max-width: 980px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+
+  /* Ajustes no Menu */
+  .menu_container {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .menu_content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  #titulo a {
+    font-size: 1.75rem;
+  }
+
+  /* Ajustes na Seção Home */
+  .home_container {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .home_content {
+    width: 100%;
+  }
+
+  .home_container h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .home_content .botao img {
+    width: 80%;
+  }
+
+  #home_texto {
+    margin-top: 0.5rem;
+  }
+
+  #home_imagem {
+    margin-bottom: 0;
+  }
+
+  /* Ajustes na Seção About */
+  .sobre_container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  .sobre_container img {
+    width: 70%;
+  }
+
+  .sobre_container h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .sobre_github {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sobre_github p {
+    display: none;
   }
 
   .sobre_github .botao {
