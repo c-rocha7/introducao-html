@@ -15,10 +15,7 @@ async function getApiGitHub() {
         <article id="about_texto">
           <h2>Sobre mim</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil
-            magni doloremque sint, qui facere fugit sequi optio molestiae sunt!
-            Maiores sapiente atque nulla mollitia earum delectus nostrum natus
-            architecto?
+            Desenvolvedor Full Stack com ampla experiência na manutenção e desenvolvimento de aplicações web, utilizando frameworks como Laravel e CodeIgniter, além de tecnologias como PHP, MySQL, Bootstrap e Docker. Tenho também habilidades na criação de páginas interativas com Tailwind CSS e jQuery, atuando em projetos que vão desde a manutenção de sistemas legados até o desenvolvimento de novas funcionalidades.
           </p>
 
           <!-- Detalhes do Github -->
