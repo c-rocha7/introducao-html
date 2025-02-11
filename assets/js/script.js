@@ -42,7 +42,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const campoNome = document.querySelector("#nome");
-  const txtNome = document.querySelector("txtNome");
+  const txtNome = document.querySelector("#txtNome");
 
   if (campoNome.value.length < 3) {
     txtNome.innerHTML = "O nome deve ter no mínimo 3 caracteres";
