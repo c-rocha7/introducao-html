@@ -76,30 +76,7 @@
       </section>
 
       <!-- Seção sobre -->
-      <section id="about" class="flex sobre_container">
-        <!-- Imagem da Seção Sobre -->
-        <img src="./assets/img/perfil.jpg" alt="Foto do Perfil do Github" />
-
-        <!-- Texto da Seção Sobre -->
-        <article id="about_texto">
-          <h2>Sobre mim</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil
-            magni doloremque sint, qui facere fugit sequi optio molestiae sunt!
-            Maiores sapiente atque nulla mollitia earum delectus nostrum natus
-            architecto?
-          </p>
-
-          <!-- Detalhes do Github -->
-          <div id="about_github" class="flex sobre_github">
-            <a href="https://github.com/c-rocha7" target="_blank" class="botao">
-              Github
-            </a>
-            <p>18 Seguidores</p>
-            <p>17 Repositórios</p>
-          </div>
-        </article>
-      </section>
+      <section id="about" class="flex sobre_container"></section>
 
       <!-- Seção de Contato -->
       <section id="contact" class="contato_container">
@@ -139,7 +116,10 @@
         </article>
 
         <!-- Formulário de Contato -->
-        <form action="" method="POST">
+        <form action="https://c-rocha7.github.io/introducao-html/5a68865485243fc51d0db31dc8cc373d" method="POST" id="formulario">
+
+          <input type="hidden" name="_next" value="http://127.0.0.1:3000/sucess.html">
+          <input type="hidden" name="_captcha" value="false">
           <label for="nome">Nome</label>
           <input
             id="nome"
@@ -182,5 +162,8 @@
 
     <!-- Rodapé da Página -->
     <footer>Feito com ❤️ por Cauã R. Pereira - 2025</footer>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
