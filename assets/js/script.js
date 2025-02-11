@@ -53,7 +53,7 @@ form.addEventListener("submit", (event) => {
   }
 
   const campoEmail = document.querySelector("#email");
-  const txtEmail = document.querySelector("#txttEmail");
+  const txtEmail = document.querySelector("#txtEmail");
 
   if (!campoEmail.value.match(emailRegex)) {
     txtEmail.innerHTML = "Digite um e-mail válido";
